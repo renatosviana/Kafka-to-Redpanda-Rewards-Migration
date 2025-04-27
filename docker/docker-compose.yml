@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  redpanda:
+    image: vectorized/redpanda
+    ports:
+      - '9092:9092'
+      - '9644:9644'
+    command:
+      - redpanda start --overprovisioned --smp 1 --memory 1G --reserve-memory 0M --node-id 0 --check=false
