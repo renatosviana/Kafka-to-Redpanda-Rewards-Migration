@@ -10,3 +10,15 @@ This project showcases the migration of a Kafka-based streaming system to Redpan
 
 ## Goal
 Demonstrate real-time reward eligibility logic and the transition from Kafka to Redpanda.
+
+## Tech Stack
+- Java / Spring Boot
+- Redpanda (via Docker)
+- Avro Schemas
+- Kafka API Compatibility
+
+## Running Locally
+1. Clone the repo
+2. Navigate to docker/ directory
+3. Run `docker-compose up`
+4. Run Producer and Consumer Spring Boot apps
